@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'popins',sans-serif; 
+   overflow-x: hidden; 
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 13px;
+  }
+
+  .navbar button{
+    border: none;
+    background-color: white;
+    color: white;
+    padding: 7px 17px;
+    font-size: large;
+    border-radius: 4px;
+    margin-left: 30px;
+    cursor: pointer;   
+} 
+
+
+.container img{
+    margin-top: 5rem;
+}
+
+.container .para1{
+    margin-top: 3rem;
+}
+
+.para1 h2{
+    margin-top: 1rem;
+}
+
+.container .para2{
+    margin-top: 1rem;
+}
+
+.para2 h4{
+    margin-top: 1rem;
+}
+
+.lock{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-right: -18rem;
+}
+
+.lock p{
+    margin-top: 7px;
+}
+
+.lock img{
+    margin-top: 0.1rem;
+    margin-left: 0.3rem;
+}
+
+.payment{
+    margin-top: -2rem;
+}
+
+.payment .pay1{
+    border: 2px solid rgb(155, 147, 147);
+    border-radius: 4px;
+    height: 3.5rem;
+    padding-top: 1rem;
+    padding-right: 22rem;
+    width: 30rem;
+    margin-top: 2rem;  
+}
+
+
+.payment .pay2{
+    border: 2px solid rgb(155, 147, 147);
+    border-radius: 4px;
+    padding-top: 1rem;
+    padding-right: 22rem;
+    height: 3.5rem;
+    width: 30rem;
+    margin-top: 0.3rem;
+}

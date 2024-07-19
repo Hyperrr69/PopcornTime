@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'popins',sans-serif;  
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 13px;
+  }
+
+  .navbar button{
+    border: none;
+    background-color: white;
+    color: white;
+    padding: 7px 17px;
+    font-size: large;
+    border-radius: 4px;
+    margin-left: 30px;
+    cursor: pointer;   
+} 
+
+.container{
+    height: 605.2px;
+    width: 1028px;
+}
+
+.container p{
+    margin-top: 1rem;
+}
+.container h2{
+    margin-top: 1rem;
+}
+
+.card {
+    display: flex; 
+    gap: 2rem;
+    margin-top: 1.4rem;   
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(6, 0, 0, 0.2);
+    border: 0.1px solid rgb(193, 185, 185);
+    transition: 0.3s;
+    width: 30%;
+  }
+  
+.card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 0.1px solid rgb(193, 185, 185);
+    transition: 0.3s;
+    width: 30%;
+  }
+  
+.card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.card3 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 0.1px solid rgb(193, 185, 185);
+    transition: 0.3s;
+    width: 30%;
+  }
+  
+.card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.card4 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 0.1px solid rgb(193, 185, 185);
+    transition: 0.3s;
+    width: 30%;
+  }
+  
+.card4:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.para{
+    margin-top: 2rem;
+    font-size: 0.9em;
+    color: gray;
+}
+.next-btn{
+    margin-top: 2rem;
+}
+
+.next-btn button{
+    background-color: red;
+    color: white;
+    padding: 14px 90px;
+    border: red;
+    border-radius: 4px;
+    font-size: x-large;
+}
