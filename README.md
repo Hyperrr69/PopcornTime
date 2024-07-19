@@ -9,3 +9,8 @@
   </html>
 
 ![login page](https://github.com/user-attachments/assets/28e57803-388e-4281-aede-c0e3551c4a8e)
+
+
+
+
+![sign out page](https://github.com/user-attachments/assets/94d2df4f-336c-4aee-81c4-f1455b48a618)
